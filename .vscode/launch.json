@@ -1,0 +1,24 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Uruchom index.html",
+            "request": "launch",
+            "type": "chrome",
+            "file": "${workspaceFolder}/src/index.html",
+            "sourceMaps": true,
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "name": "Uruchom main.js",
+            "request": "launch",
+            "type": "chrome",
+            "file": "${workspaceFolder}/src/main.js",
+            "sourceMaps": true,
+            "webRoot": "${workspaceFolder}"
+        },
+    ]
+}
