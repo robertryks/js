@@ -25,3 +25,4 @@ btn2.addEventListener('click', () => {
 btn3.addEventListener('click', () => {
   posilek3.wybranyPosilek();
 })
+//zmiany
