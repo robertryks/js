@@ -98,3 +98,27 @@ body {
 .deleteBtn {
     color: red;
 }
+
+
+
+.stronka {
+    width: 500px;
+
+}
+
+
+.btnList {
+    width: 100%;
+    justify-content: space-between;
+}
+
+.btn {
+    font-size: 30px;
+    padding: 5px 15px;
+    background-color: seagreen;
+    cursor: pointer;
+}
+
+.wybrana {
+    margin-top: 30px;
+}
