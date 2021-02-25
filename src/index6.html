@@ -17,20 +17,20 @@
         </div>
         <div class="dol">
             <label for="kwota">Kwota do zapłaty</label>
-            <input type="text" name="kwotaDoZaplaty" id="kwota">
+            <input type="number" name="kwotaDoZaplaty" id="kwota">
             <label for="osob">Ilość osób</label>
             <input type="number" name="iloscOsob" id="osob">
             <label for="napiwek">Napiwek</label>
             <select name="napiwekDodany" id="napiwek">
-                <option value="0">wybierz napiwek</option>
+                <option value="0" selected disabled >wybierz napiwek</option>
                 <option value="0.05">5%</option>
                 <option value="0.1">10%</option>
                 <option value="0.15">15%</option>
                 <option value="0.2">20%</option>
             </select>
-            <button class="oblicz">oblicz</button>
-            <span class="error"></span>
-            <div class="info">Powinniście się złożyc po <span class="kwota"></span> zł</div>
+            <button id="oblicz">Oblicz</button>
+            <p id="error"></p>
+            <div id="info">Powinniście się złożyc po <span id="kwotaPodzielona"></span> zł</div>
         </div>
     </div>
     <script src="main6.js"></script>
