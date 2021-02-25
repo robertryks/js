@@ -11,14 +11,5 @@
             "url": "http://localhost:5500",
             "webRoot": "${workspaceFolder}"
         },
-
-        {
-            "name": "Uruchom index.html",
-            "request": "launch",
-            "type": "chrome",
-            "file": "${workspaceFolder}/src/index.html",
-            "sourceMaps": true,
-            "webRoot": "${workspaceFolder}"
-        },
     ]
 }
